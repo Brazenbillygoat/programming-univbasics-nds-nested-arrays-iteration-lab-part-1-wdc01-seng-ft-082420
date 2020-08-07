@@ -10,7 +10,10 @@ def find_even_values(src)
     
     while inner_count < src[count].length
       (src[count][inner_count] % 2 == 0) ? (p src[count][inner_count]) : next
+      
     end
+    
+    count += 1
   end
 
 end
